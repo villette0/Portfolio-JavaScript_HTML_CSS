@@ -2,9 +2,20 @@
     --font: "Hind", Arial, Helvetica, sans-serif;
 }
 
+.header {
+    display: inline;
+}
+
+.header h1 {
+    font-family: "Dancing Script", cursive;
+    padding-top: 30px;
+    margin-left: 30px;
+    font-size: 30px;
+}
+
 /* Navigation link styling */
 nav {
-    padding-top: 15px;
+    margin-top: -20px;
     margin-right: 30px;
     text-align: right;
     font-family: var(--font);
@@ -14,8 +25,6 @@ nav {
 
 nav ul li {
     display: inline-block;
-    margin-left: 40px;
-    margin-top: 30px;
 }
 
 nav ul li a {
@@ -26,7 +35,7 @@ nav ul li a {
 }
 
 body {
-    background-color: rgb(236, 234, 234);
+    background-color: rgb(244, 241, 241);
     background-size: 700px 700px;
     padding-bottom: 30px;
 }
@@ -46,7 +55,7 @@ section {
     text-align: center;
     font-family: var(--font);
     font-size: 80px;
-    filter: drop-shadow(2px 2px 2px rgb(88, 86, 86));
+    filter: drop-shadow(1px 1px 1px rgb(88, 86, 86));
 }
 
 .grid-container {
@@ -63,6 +72,7 @@ section {
     background-color: rgb(170, 207, 247);
     display: flex;
     flex-direction: column;
+    filter: drop-shadow(3px 3px 3px rgb(88, 86, 86));
 }
 
 
