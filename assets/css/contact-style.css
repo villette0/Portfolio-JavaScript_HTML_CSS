@@ -1,11 +1,11 @@
 /* Navigation link styling */
 nav {
-    margin-top: -26px;
-    margin-right: 22px;
+    padding-top: 15px;
+    margin-right: 30px;
     text-align: right;
-    font-family: "MonteCarlo", cursive;
+    font-family: var(--font);
     font-weight: 800;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 nav ul li {
@@ -17,17 +17,14 @@ nav ul li {
 nav ul li a {
     color: black;
     text-decoration: none;
-    background-image: url("../images/goldborder.png");
-    background-size: 120px 110px;
-    background-repeat: no-repeat;
     /* padding: top right bottom left */
-    padding: 40px 30px 40px 30px; 
-    background-position:center;
+    padding: 20px 20px;
 }
 
 body {
-    background-color: white;
-    background-size: 720px 1080px;
+    background-color: rgb(236, 234, 234);
+    background-size: 700px 700px;
+    padding-bottom: 30px;
 }
 
 section {

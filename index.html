@@ -1,41 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
-    <title>Villette Comfort</title>
+    <title>Villette Comfort's Projects</title>
     <meta name="description" content="Enter webpage description here.">
     <!-- Google font selections -->
-    <link href="https://fonts.googleapis.com/css2?family=MonteCarlo&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/index-style.css" />
-  </head>
+</head>
 
-  <body>
+<body>
     <!--Header of the document-->
     <header>
-      <!--Navigatioon links-->
-      <nav>
-          <ul>
-              <li>
-                  <a href="./about.html">About</a>
-              </li>
-              <li>
-                  <a href="./projects.html">Projects</a>
-              </li>
-              <li>
-                  <a href="./contact.html">Contact</a>
-              </li>
-          </ul>
-      </nav>
-  </header>
+        <!--Navigatioon links-->
+        <nav>
+            <ul>
+                <li>
+                    <a href="./about.html">About</a>
+                </li>
+                <li>
+                    <a href="./index.html">Projects</a>
+                </li>
+                <li>
+                    <a href="./contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
     <main>
-      <section>
-        <h2>Villette Comfort</h2>
-        <h3>- [ DEVELOPER ] -</h3>
-      </section>
+        <section>
+            <h2 class = "projects-header">Projects</h2>
+            <!-- <img src="./assets/images/projectsb.png" class="projects-header" alt="Project Header" width="450" height="240"> -->
+                <div class="grid-container">
+                    <a href="https://villettec.github.io/M6C-Weather_Dashboard/" target="_blank" class="project-container">
+                        <img src="./assets/images/weather-pic.png" alt="Weather Application Screenshot" class="capture" />
+                        <div class="project-description">
+                            <h3>Weather Dashboard</h3>
+                            <p>In this application, a user searches a city and both the current and 5 day forecast information is displayed by calling an API for data.</p>
+                        </div>
+                    </a>
+                    <a href="https://villettec.github.io/M3C-Password_Generator/" target="_blank" class="project-container">
+                        <img src="./assets/images/pwgen-pic.png" alt="Password Generator Screenshot" class="capture" />
+                        <div class="project-description">
+                            <h3>Password Generator</h3>
+                            <p>Via prompts, a user chooses whether to include symbols, numbers, or letters in a generated password of their choice of length.</p>
+                        </div>
+                    </a>
+                    <a href="https://villettec.github.io/M4C-Code_Quiz/" target="_blank" class="project-container">
+                        <img src="./assets/images/codequiz-pic.png" alt="Coding Quiz Application Screenshot" class="capture" />
+                        <div class="project-description">
+                            <h3>Coding Quiz</h3>
+                            <p>This application is a timed quiz displaying array questions and answers. Ordered high scores and saved initials are featured at the end.</p>
+                        </div>
+                    </a>
+                    <a href="https://villettec.github.io/M5C-Work_Day_Scheduler/" target="_blank" class="project-container">
+                        <img src="./assets/images/workday-pic.png" alt="Workday Schedular Screenshot" class="capture" />
+                        <div class="project-description">
+                            <h3>Workday Scheduler</h3>
+                            <p>In this day planner, moments and jquery are used to show events of the past, present, and future which the user can enter and erase.</p>
+                        </div>
+                    </a>
+                    <a href="https://villettec.github.io/M1C-Horiseon_Refactor/" target="_blank" class="project-container">
+                        <img src="./assets/images/horiseon-pic.png" alt="Horiseon Webpage Screenshot" class="capture" />
+                        <div class="project-description">
+                            <h3>Horiseon Refactor</h3>
+                            <p>This was an exercise in code refactoring to make the code apply to accessibility standards and SEO optimization </p>
+                        </div>
+                    </a>
+                    <a href="https://villettec.github.io/Todo_List/" target="_blank" class="project-container">
+                        <img src="./assets/images/todolist-pic.png" alt="To Do List Application Screenshot" class="capture" />
+                        <div class="project-description">
+                            <h3>To Do List Maker</h3>
+                            <p>This To Do List application allows a user to input tasks and mark them as completed which strikes them out or later deletes them. Tasks can be filtered by completion.</p>
+                        </div>
+                    </a>
+                    <a href="https://villettec.github.io/School_Resources/" target="_blank" class="project-container">
+                        <img src="./assets/images/school-resources-pic.png" alt="School Resources Application Screenshot" class="capture" />
+                        <div class="project-description">
+                            <h3>School Resources</h3>
+                            <p>In this student resource application, the user can view recommended books from the library and play trivia topic questions. Three API's are used for data.</p>
+                        </div>
+                    </a>
+                    <a href="project-url-goes-here" target="_blank" class="project-container">
+                        <img src="./assets/images/placeholder.png" alt="Placeholder Image" class="capture" />
+                        <div class="project-description">
+                            <h3>Project</h3>
+                            <p>Coming Soon . . .</p>
+                        </div>
+                    </a>
+                    <a href="project-url-goes-here" target="_blank" class="project-container">
+                        <img src="./assets/images/placeholder.png" alt="Placeholder Image" class="capture" />
+                        <div class="project-description">
+                            <h3>Project</h3>
+                            <p>Coming Soon . . .</p>
+                        </div>
+                    </a>
+                </div>
+        </section>
     </main>
 
-  <script src="./assets/js/script.js"></script>
+
+    <script src="./assets/js/script.js"></script>
 </body>
+
 </html>
