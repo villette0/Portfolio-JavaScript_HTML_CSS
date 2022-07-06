@@ -35,11 +35,17 @@ nav {
     font-size: 20px;
 }
 
-nav ul li a {
+button {
     color: black;
-    text-decoration: none;
     margin-left: 40px;
-    line-height: 60px;
+    margin-top: 40px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(244, 241, 241);
+}
+
+button:focus {
+    outline: none;
 }
 
 body {
@@ -133,3 +139,57 @@ a:active {
     line-height: 20px;
     margin: 8px;
 }
+
+.about-section {
+    text-align: center;
+    background-color: white;
+    filter: drop-shadow(3px 3px 3px rgb(88, 86, 86));
+    margin-top: 80px;
+    margin-left: 340px;
+    margin-right: 60px;
+    padding: 20px;
+}
+
+.about-section h2 {
+    font-size: 40px;
+    font-family: var(--font);
+    color: black;
+    font-size: 70px;
+    filter: drop-shadow(1px 1px 1px rgb(88, 86, 86));
+}
+
+.about-section article {
+    font-family: var(--font);
+    font-size: 20px;
+    padding: 30px;
+    line-height: 30px;
+}
+
+.contact-section {
+    background-color: white;
+    filter: drop-shadow(3px 3px 3px rgb(88, 86, 86));
+    margin-top: 150px;
+    min-width: 650px;
+    margin-left: 400px;
+    margin-right: 60px;
+    padding: 20px 20px 60px 20px;
+}
+
+.contact-section h2 {
+    text-align: left;
+    font-family: var(--font);
+    color: black;
+    font-size: 40px;
+    filter: drop-shadow(1px 1px 1px rgb(88, 86, 86));
+    margin: 10px;
+}
+
+.contact-section p {
+    text-align: center;
+    font-family: var(--font);
+    font-size: 20px;
+    margin: 10px;
+}
+
+
+/* Carousel
