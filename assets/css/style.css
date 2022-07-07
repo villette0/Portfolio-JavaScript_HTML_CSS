@@ -7,6 +7,16 @@ main {
     display: table;
 }
 
+body {
+    background-color: var(--bgcolor);
+    background-size: 700px 700px;
+    padding-bottom: 30px;
+    background-image: url("../images/rosebg.jpg");
+    background-size: 1100px 700px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
 .sidebar {
     filter: drop-shadow(2px 2px 2px rgb(147, 146, 146));
     border: 1px solid var(--bgcolor);;
@@ -47,12 +57,6 @@ button {
 
 button:focus {
     outline: none;
-}
-
-body {
-    background-color: var(--bgcolor);;
-    background-size: 700px 700px;
-    padding-bottom: 30px;
 }
 
 .projects-section {
@@ -149,6 +153,7 @@ a:active {
     margin-left: 340px;
     margin-right: 60px;
     padding: 20px;
+    opacity: .8;
 }
 
 .about-section h2 {
@@ -174,6 +179,7 @@ a:active {
     margin-left: 400px;
     margin-right: 60px;
     padding: 20px 20px 60px 20px;
+    opacity: .8;
 }
 
 .contact-section h2 {
