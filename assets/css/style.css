@@ -41,14 +41,13 @@ body {
 
 /* Navigation link styling */
 nav {
-    text-align: left;
+    text-align: center;
     font-family: var(--font);
     font-size: 20px;
 }
 
 button {
     color: black;
-    margin-left: 40px;
     margin-top: 20px;
     padding: 10px;
     border: none;
@@ -87,7 +86,7 @@ button:focus {
     margin-right: auto; */
     color: black;
     text-align: center;
-    font-family: var(--font);
+    font-family: "Dancing Script", cursive;
     font-size: 80px;
     filter: drop-shadow(1px 1px 1px rgb(88, 86, 86));
 }
@@ -173,7 +172,7 @@ a:active {
 
 .about-section h2 {
     font-size: 40px;
-    font-family: var(--font);
+    font-family: "Dancing Script", cursive;
     color: black;
     font-size: 70px;
     filter: drop-shadow(1px 1px 1px rgb(88, 86, 86));
@@ -198,6 +197,15 @@ a:active {
 }
 
 .contact-section h2 {
+    font-size: 40px;
+    font-family: "Dancing Script", cursive;
+    color: black;
+    font-size: 70px;
+    filter: drop-shadow(1px 1px 1px rgb(88, 86, 86));
+    text-align: center;
+}
+
+.contact-section h3 {
     text-align: left;
     font-family: var(--font);
     color: black;
