@@ -1,5 +1,6 @@
 :root {
     --font: "Hind", Arial, Helvetica, sans-serif;
+    --bgcolor: rgb(244, 241, 241);
 }
 
 main {
@@ -8,8 +9,8 @@ main {
 
 .sidebar {
     filter: drop-shadow(2px 2px 2px rgb(147, 146, 146));
-    border: 1px solid rgb(244, 241, 241);
-    background-color: rgb(244, 241, 241);
+    border: 1px solid var(--bgcolor);;
+    background-color: var(--bgcolor);
     float: left;
     min-width: 230px;
     height: 100vh;
@@ -41,7 +42,7 @@ button {
     margin-top: 40px;
     padding: 10px;
     border: none;
-    background-color: rgb(244, 241, 241);
+    background-color: var(--bgcolor);;
 }
 
 button:focus {
@@ -49,7 +50,7 @@ button:focus {
 }
 
 body {
-    background-color: rgb(244, 241, 241);
+    background-color: var(--bgcolor);;
     background-size: 700px 700px;
     padding-bottom: 30px;
 }

@@ -1,7 +1,7 @@
 # Villlette Comfort Portfolio
 
 ## Website Description
-This website contains 4 webpages, the index landing page, about, contact, and projects page which displays a grid of my projects that are linked to their deployed webpages.
+This website contains 3 pages that are displayed via JavaScript for the about, projects and contact section. Upon clicking each button the sections are hidden or shown via functions. 
 
 ## Tasks Completed
 The HTML document includes:
@@ -11,12 +11,18 @@ The HTML document includes:
 
 The CSS document includes:
 * universal variables
-* features such as drop shadows, opacity, background images
+* features such as sidebars and drop shadows 
 * Google font usage
+
+The JavaScript document includes:
+* universal variables
+* event listeners
+* functions to display and hide sections
 
 ## Languages
 - HTML
 - CSS
+- JavaScript
 
 ## Links
 * [Deployed webpage](https://villettec.github.io/Villette_Comfort_Portfolio)
