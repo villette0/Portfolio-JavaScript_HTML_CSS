@@ -10,7 +10,6 @@ main {
 body {
     background-color: var(--bgcolor);
     background-size: 700px 700px;
-    padding-bottom: 30px;
     background-image: url("../images/rosebg.jpg");
     background-size: 1100px 700px;
     background-repeat: no-repeat;
@@ -95,7 +94,8 @@ button:focus {
 
 .grid-container {
     /* top right bottom left */
-    margin: 30px 20px;
+    margin: 30px 30px;
+    padding-bottom: 40px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 380px);
