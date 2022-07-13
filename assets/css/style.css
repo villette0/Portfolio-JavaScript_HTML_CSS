@@ -20,7 +20,6 @@ body {
     filter: drop-shadow(2px 2px 2px rgb(147, 146, 146));
     border: 1px solid var(--bgcolor);;
     background-color: var(--bgcolor);
-    float: left;
     min-width: 230px;
     height: 100vh;
     position: fixed;
@@ -80,6 +79,7 @@ button:focus {
 .projects-header {
     padding-top: 60px;
     margin-bottom: 50px;
+    font-weight: 100;
     /* If the image were used:
     display: block;
     margin-left: auto;
@@ -127,7 +127,7 @@ a:active {
 }
 
 .capture {
-    height: 65%;
+    height: 100%;
     width: 100%;
     align-items: top;
     opacity: .86;
@@ -140,7 +140,8 @@ a:active {
 
 .project-description {
     background-color: rgb(73, 73, 73);
-    height: 40%;
+    align-items: bottom;
+    height: 100%;
 }
 
 .project-description h3 {
@@ -157,6 +158,11 @@ a:active {
     color: white;
     line-height: 20px;
     margin: 8px;
+    /* text-overflow: ellipsis; */
+}
+
+.project-description p a {
+    color: lightblue;
 }
 
 .about-section {
@@ -219,7 +225,7 @@ a:active {
     font-family: var(--font);
     font-size: 20px;
     margin: 10px;
-}
+} */
 
 
 /* Carousel

@@ -5,15 +5,12 @@
     <meta charset="UTF-8" />
     <title>Villette Comfort's Projects</title>
     <meta name="description" content="Enter webpage description here.">
-    <!-- Bootstrap link, not currently using -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Google font selections -->
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Hind:wght@300&display=swap"
         rel="stylesheet">
     <!--Icons from font awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <!-- My stylesheet -->
+    <!-- Reset and custom stylesheets -->
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
@@ -23,8 +20,8 @@
         <section class="sidebar">
             <h1>Villette Comfort</h1>
             <!--Navigation links-->
-            <img class="profile-pic" src="./assets/images/profilepic.png" alt="Photo of Villette Comfort"
-                width="240" height="240">
+            <img class="profile-pic" src="./assets/images/profilepic.png" alt="Photo of Villette Comfort" width="240"
+                height="240">
             <nav>
                 <ul>
                     <li>
@@ -39,7 +36,8 @@
                 </ul>
             </nav>
             <div class="icon-links">
-                <a href="https://www.linkedin.com/in/villette-comfort-80ab86234/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/villette-comfort-80ab86234/"><i
+                        class="fa-brands fa-linkedin"></i></a>
                 <a href="https://github.com/villettec"><i class="fa-brands fa-github"></i></a>
                 <a href="mailto: villette@live.com"><i class="fa-solid fa-envelope"></i></a>
             </div>
@@ -47,81 +45,140 @@
 
         <section class="projects-section">
             <h2 class="projects-header">Projects</h2>
-            <!-- <img src="./assets/images/projectsb.png" class="projects-header" alt="Project Header" width="450" height="240"> -->
             <div class="grid-container">
-                <a href="https://villettec.github.io/M6C-Weather_Dashboard/" target="_blank" class="project-container">
-                    <img src="./assets/images/weather-pic.png" alt="Weather Application Screenshot" class="capture" />
+                <div class="project-container">
+                    <a href="https://villettec.github.io/M6C-Weather_Dashboard/" target="_blank">
+                        <img src="./assets/images/weather-pic.png" alt="Weather Application Screenshot"
+                            class="capture" />
+                    </a>
                     <div class="project-description">
                         <h3>Weather Dashboard</h3>
                         <p>In this application, a user searches a city and both the current and 5 day forecast
                             information is displayed by calling an API for data.</p>
                     </div>
-                </a>
-                <a href="https://villettec.github.io/M3C-Password_Generator/" target="_blank" class="project-container">
-                    <img src="./assets/images/pwgen-pic.png" alt="Password Generator Screenshot" class="capture" />
+                </div>
+
+                <div class="project-container">
+                    <a href="https://villettec.github.io/M3C-Password_Generator/" target="_blank">
+                        <img src="./assets/images/pwgen-pic.png" alt="Password Generator Screenshot" class="capture" />
+                    </a>
                     <div class="project-description">
                         <h3>Password Generator</h3>
                         <p>Via prompts, a user chooses whether to include symbols, numbers, or letters in a generated
                             password of their choice of length.</p>
                     </div>
-                </a>
-                <a href="https://villettec.github.io/M4C-Code_Quiz/" target="_blank" class="project-container">
-                    <img src="./assets/images/codequiz-pic.png" alt="Coding Quiz Application Screenshot"
-                        class="capture" />
+                </div>
+
+                <div class="project-container">
+                    <a href="https://villettec.github.io/M4C-Code_Quiz/" target="_blank">
+                        <img src="./assets/images/codequiz-pic.png" alt="Coding Quiz Application Screenshot"
+                            class="capture" />
+                    </a>
                     <div class="project-description">
                         <h3>Coding Quiz</h3>
                         <p>This application is a timed quiz displaying array questions and answers. Ordered high scores
                             and saved initials are featured at the end.</p>
                     </div>
-                </a>
-                <a href="https://villettec.github.io/M5C-Work_Day_Scheduler/" target="_blank" class="project-container">
-                    <img src="./assets/images/workday-pic.png" alt="Workday Schedular Screenshot" class="capture" />
+                </div>
+
+                <div class="project-container">
+                    <a href="https://villettec.github.io/M5C-Work_Day_Scheduler/" target="_blank">
+                        <img src="./assets/images/workday-pic.png" alt="Workday Schedular Screenshot" class="capture" />
+                    </a>
                     <div class="project-description">
                         <h3>Workday Scheduler</h3>
                         <p>In this day planner, moments and jquery are used to show events of the past, present, and
                             future which the user can enter and erase.</p>
                     </div>
-                </a>
-                <a href="https://villettec.github.io/M1C-Horiseon_Refactor/" target="_blank" class="project-container">
-                    <img src="./assets/images/horiseon-pic.png" alt="Horiseon Webpage Screenshot" class="capture" />
+                </div>
+
+                <div class="project-container">
+                    <a href="https://villettec.github.io/M1C-Horiseon_Refactor/" target="_blank">
+                        <img src="./assets/images/horiseon-pic.png" alt="Horiseon Webpage Screenshot" class="capture" />
+                    </a>
                     <div class="project-description">
                         <h3>Horiseon Refactor</h3>
                         <p>This was an exercise in code refactoring to make the code apply to accessibility standards
                             and SEO optimization </p>
                     </div>
-                </a>
-                <a href="https://villettec.github.io/Todo_List/" target="_blank" class="project-container">
-                    <img src="./assets/images/todolist-pic.png" alt="To Do List Application Screenshot"
-                        class="capture" />
+                </div>
+
+                <div class="project-container">
+                    <a href="https://villettec.github.io/Todo_List/" target="_blank">
+                        <img src="./assets/images/todolist-pic.png" alt="To Do List Application Screenshot"
+                            class="capture" />
+                    </a>
                     <div class="project-description">
                         <h3>To Do List Maker</h3>
                         <p>This To Do List application allows a user to input tasks and mark them as completed which
                             strikes them out or later deletes them. Tasks can be filtered by completion.</p>
                     </div>
-                </a>
-                <a href="https://villettec.github.io/School_Resources/" target="_blank" class="project-container">
-                    <img src="./assets/images/school-resources-pic.png" alt="School Resources Application Screenshot"
-                        class="capture" />
+                </div>
+
+                <div class="project-container">
+                    <a href="https://villettec.github.io/School_Resources/" target="_blank">
+                        <img src="./assets/images/school-resources-pic.png"
+                            alt="School Resources Application Screenshot" class="capture" />
+                    </a>
                     <div class="project-description">
                         <h3>School Resources</h3>
                         <p>In this student resource application, the user can view recommended books from the library
                             and play trivia topic questions. Three API's are used for data.</p>
                     </div>
-                </a>
-                <a href="https://drive.google.com/file/d/1xEc5dGCMxg9jQJAEgl2gr7tFUggt9csY/view" target="_blank" class="project-container">
-                    <img src="./assets/images/readme-generator.png" alt="Readme Generator Screenshot" class="capture" />
+                </div>
+
+                <div class="project-container">
+                    <a href="https://drive.google.com/file/d/1xEc5dGCMxg9jQJAEgl2gr7tFUggt9csY/view" target="_blank">
+                        <img src="./assets/images/readme-generator.png" alt="Readme Generator Screenshot"
+                            class="capture" />
+                    </a>
                     <div class="project-description">
                         <h3>README Generator</h3>
-                        <p>This is a node application which prompts the user with input questions and generates a README. A walkthrough video is shown at the link.</p>
+                        <p>This is a node application which prompts the user with input questions and generates a
+                            README. A walkthrough video is above. See the <a href="https://github.com/villettec/M9C-Readme_Generator">repo</a>.</p>
                     </div>
-                </a>
-                <a href="project-url-goes-here" target="_blank" class="project-container">
-                    <img src="./assets/images/placeholder.png" alt="Placeholder Image" class="capture" />
+                </div>
+
+                <div class="project-container">
+                    <a href="https://drive.google.com/file/d/1KmxmDwexHAd3-ArprAiwq4150nN4-XlP/view" target="_blank">
+                        <img src="./assets/images/team-generator.png" alt="Team Generator Screenshot" class="capture" />
+                    </a>
+                    <div class="project-description">
+                        <h3>Team Generator</h3>
+                        <p>This node application prompts the user with questions about employees and generates a HTML
+                            and CSS page. A walkthrough video is above. See the <a href="https://github.com/villettec/M10C-Team_Profile_Generator">repo</a>.</p>
+                    </div>
+                </div>
+
+                <div class="project-container">
+                    <a href="project-url-goes-here" target="_blank">
+                        <img src="./assets/images/placeholder.png" alt="Placeholder Image" class="capture" />
+                    </a>
                     <div class="project-description">
                         <h3>Project</h3>
                         <p>Coming Soon . . .</p>
                     </div>
-                </a>
+                </div>
+
+                <div class="project-container">
+                    <a href="project-url-goes-here" target="_blank">
+                        <img src="./assets/images/placeholder.png" alt="Placeholder Image" class="capture" />
+                    </a>
+                    <div class="project-description">
+                        <h3>Project</h3>
+                        <p>Coming Soon . . .</p>
+                    </div>
+                </div>
+
+                <div class="project-container">
+                    <a href="project-url-goes-here" target="_blank">
+                        <img src="./assets/images/placeholder.png" alt="Placeholder Image" class="capture" />
+                    </a>
+                    <div class="project-description">
+                        <h3>Project</h3>
+                        <p>Coming Soon . . .</p>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -149,11 +206,11 @@
         <section class="contact-section">
             <h2>Contact</h2>
             <h3>Email</h2>
-            <p><a href="mailto: villette@live.com">villette@live.com</a></p>
-            <h3>Linked In</h2>
-            <p>Connect with me <a href="https://www.linkedin.com/in/villette-comfort-80ab86234/">here</a></p>
-            <h3>GitHub</h2>
-            <p>View my profile and repositories <a href="https://github.com/villettec">here</a></p>
+                <p><a href="mailto: villette@live.com">villette@live.com</a></p>
+                <h3>Linked In</h2>
+                    <p>Connect with me <a href="https://www.linkedin.com/in/villette-comfort-80ab86234/">here</a></p>
+                    <h3>GitHub</h2>
+                        <p>View my profile and repositories <a href="https://github.com/villettec">here</a></p>
         </section>
     </main>
 
