@@ -230,3 +230,11 @@ a:active {
 }
 
 
+/* Mobile*/
+@media screen 
+and (min-width : 250px) 
+and (max-width : 1024px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+}
+}
