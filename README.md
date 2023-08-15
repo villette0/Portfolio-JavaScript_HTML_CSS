@@ -1,4 +1,4 @@
-# Villlette Comfort Portfolio
+# Villlette Portfolio
 
 ## Website Description
 This website contains 3 pages that are displayed via JavaScript for the about, projects and contact section. Upon clicking each button the sections are hidden or shown via functions. 
@@ -25,9 +25,9 @@ The JavaScript document includes:
 - JavaScript
 
 ## Links
-* [Deployed webpage](https://villettec.github.io/Villette_Comfort_Portfolio)
+* [Deployed webpage](https://villettejs.vercel.app/)
 
-* [Repository](https://github.com/villettec/Villette_Comfort_Portfolio)
+* [Repository](https://github.com/villette0/Portfolio-JavaScript_HTML_CSS)
 
 ## Screenshot
 ![image](./assets/images/readme-screenshot.png)
