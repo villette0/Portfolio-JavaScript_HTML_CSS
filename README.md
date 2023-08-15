@@ -31,8 +31,3 @@ The JavaScript document includes:
 
 ## Screenshot
 ![image](./assets/images/readme-screenshot.png)
-
-## Credit
-Villette Comfort
-
-villette@live.com
